@@ -236,7 +236,7 @@ section{
 }
 
 .about .row .content p{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: #666;
     padding: 1rem 0;
     line-height: 1.8;
@@ -314,6 +314,7 @@ section{
     color: #666;
     padding: .5rem 0;
     line-height: 1.5;
+    text-transform: none;
 }
 
 .room .slide .content .stars{
@@ -553,12 +554,16 @@ section{
 
 .image-section{
     background: url("images/background.png");
-    height: 58rem;
+    height: 78rem;
     background-position: center center;
     background-attachment: fixed;
 }
 .image-section h3 {
     text-shadow: 2px 2px #323533;
+}
+.container .row h3{
+    text-transform: none;
+    color: var(--primary)
 }
 /* end */
 
@@ -578,6 +583,7 @@ section{
     font-size: 2.2rem;
     padding: 1rem 0;
     color: var(--primary);
+    text-transform: none;
 }
 
 .footer .box-container .box a{
