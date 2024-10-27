@@ -726,7 +726,7 @@
 
          <h1 class="heading">Свържи се с нас</h1>
    
-         <form action="https://formspree.io/f/mnqebpza" method="POST">
+         <form action="https://formspree.io/f/mnqebpza" method="POST" onsubmit="return validateRecaptcha()">
 
             <div class="container">
         
@@ -816,6 +816,16 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
    <script src="script.js"></script>
+   <script>
+    function validateRecaptcha() {
+        var response = grecaptcha.getResponse();
+        if (response.length === 0) {
+            alert("Моля, потвърдете, че не сте робот.");
+            return false; // Спира изпращането на формата
+        }
+        return true; // Продължава изпращането на формата, ако reCAPTCHA е попълнено
+    }
+</script>
 
 </body>
 </html>
