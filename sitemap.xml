@@ -1,0 +1,67 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <!-- Created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    
+    <url>
+        <loc>https://hotel-ognqnovo.pro/</loc>
+        <lastmod>2024-10-28T16:49:58+00:00</lastmod>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-home.jpg</image:loc>
+            <image:caption>Това е хотел в Огняново, начало</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-about.jpg</image:loc>
+            <image:caption>Хотел в село Огняново, за нас</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-contact.jpg</image:loc>
+            <image:caption>Изображение на хотел в село Огняново, контакт с нас</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-address.jpg</image:loc>
+            <image:caption>Снимка на хотел в Огняново, заповядайте</image:caption>
+        </image:image>
+
+    
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/ognqnovo-hotel.jpg</image:loc>
+            <image:caption>Хотел село Огняново</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-room.jpg</image:loc>
+            <image:caption>Стая с минерална баня в Огняново</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/ognqnovo-hotel-room.jpg</image:loc>
+            <image:caption>Единична стая в хотел в Огняново</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-double-room.jpg</image:loc>
+            <image:caption>Двойна стая в хотел в Огняново</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/bed.png</image:loc>
+            <image:caption>Леглова база на хотел в село Огняново</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/bath.png</image:loc>
+            <image:caption>Минерална баня на хотел в село Огняново</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/tv.png</image:loc>
+            <image:caption>Оборудване на стаите в хотел в село Огняново</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/forest.png</image:loc>
+            <image:caption>Дейности в село Огняново</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://hotel-ognqnovo.pro/images/wifi.png</image:loc>
+            <image:caption>Интернет в стаите на хотел в село Огняново</image:caption>
+        </image:image>
+    </url>
+
+</urlset>
