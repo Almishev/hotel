@@ -81,21 +81,20 @@
 
    <!-- header -->
 
-   <header class="header">
+   <header class="header" aria-label="Основна навигация">
 
-      <a href="#home" class="logo"> <i class="fas fa-hotel"></i>Минерални Бани</a>
+      <a href="#home" class="logo" title="Хотел Минерални Бани Огняново- към началната страница" aria-label="Минерални Бани - хотел с минерална баня в село Огняново"> <i class="fas fa-hotel"></i>Минерални Бани</a>
 
       <nav class="navbar">
-         <a href="#home">Начало</a>
-         <a href="#about">За Нас</a>
-         <a href="#room">Нашите Стаи</a>
-         <a href="#gallery">Галерия</a>
-         <a href="#review">Отзиви</a>
-         <a href="#faq">Ч.З.В</a>
-         <a href="#reservation">Минерална баня</a>
-      <!--  <a href="#reservation3">Резервации</a> -->
-      <a href="#reservation2">Контакт</a>
-      </nav>
+         <a href="#home" title="Хотел Минерални Бани - Начална страница">Начало</a>
+         <a href="#about" title="Научете повече за Хотел Минерални Бани">За Нас</a>
+         <a href="#room" title="Разгледайте нашите хотелски стаи в Минерални Бани">Нашите Стаи</a>
+         <a href="#gallery" title="Вижте галерията на Хотел Минерални Бани">Галерия</a>
+         <a href="#review" title="Прочетете отзиви от нашите гости">Отзиви</a>
+         <a href="#faq" title="Често задавани въпроси за Хотел Минерални Бани">Ч.З.В</a>
+         <a href="#reservation" title="Информация за минералната баня на хотела">Минерална баня</a>
+         <a href="#reservation2" title="Свържете се с нас за резервация">Контакт</a>
+     </nav>     
 
       <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -112,28 +111,32 @@
 
          <div class="swiper-wrapper">
 
-            <div class="swiper-slide slide" style="background: url(images/homme-slide1.jpg) no-repeat;">
+            <div class="swiper-slide slide" style="background: url(images/hotel-ognqnovo-home.jpg) no-repeat;"
+               aria-label="Това е хотел в Огняново, начало">
                <div class="content">
                   <h3>Опитайте блаженството на минералната баня</h3>
                   <a href="tel:0876110613" class="btn"><i class="fas fa-phone"></i> Резервирай..</i></a>
                </div>
             </div>
 
-            <div class="swiper-slide slide" style="background: url(images/homme-slide2.jpg) no-repeat;">
+            <div class="swiper-slide slide" style="background: url(images/hotel-ognqnovo-about.jpg) no-repeat;"
+               aria-label="Хотел в село Огняново, за нас">
                <div class="content">
                   <h3>Възстановете енергията си</h3>
                   <a href="tel:0876110613" class="btn"><i class="fas fa-phone"></i> Резервирай..</i></a>
                </div>
             </div>
 
-            <div class="swiper-slide slide" style="background: url(images/homme-slide3.jpg) no-repeat;">
+            <div class="swiper-slide slide" style="background: url(images/hotel-ognqnovo-contact.jpg) no-repeat;"
+               aria-label="Изображение на хотел в село Огняново, контакт с нас">
                <div class="content">
                   <h3>Създайте своят собствен оазис за спокойствие</h3>
                   <a href="tel:0876110613" class="btn"><i class="fas fa-phone"></i> Резервирай..</i></a>
                </div>
             </div>
 
-            <div class="swiper-slide slide" style="background: url(images/homme-slide4.jpg) no-repeat;">
+            <div class="swiper-slide slide" style="background: url(images/hotel-ognqnovo-address.jpg) no-repeat;"
+               aria-label="Снимка на хотел в Огняново, заповядайте"> 
                <div class="content">
                   <h3>Захранете се с енергия от природата</h3>
                   <a href="tel:0876110613" class="btn"><i class="fas fa-phone"></i> Резервирай..</i></a>
@@ -234,7 +237,7 @@
       <div class="row">
 
          <div class="image">
-            <img src="images/aboutt.jpg" alt="">
+            <img src="images/ognqnovo-hotel.jpg" alt="Хотел село Огняново">
          </div>
 
          <div class="content">
@@ -271,7 +274,7 @@
             <div class="swiper-slide slide">
                <div class="image">
                   <span class="price">69.99 лв/нощ</span>
-                  <img src="images/roomm-1.jpg" alt="">
+                  <img src="images/hotel-ognqnovo-room.jpg" alt="Стая с минерална баня в Огняново">
                  <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
                </div>
                <div class="content">
@@ -291,7 +294,7 @@
             <div class="swiper-slide slide">
                <div class="image">
                   <span class="price">69.99 лв/нощ</span>
-                  <img src="images/roomm-2.jpg" alt="">
+                  <img src="images/ognqnovo-hotel-room.jpg" alt="Единична стая в хотел в Огняново">
                 <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
                </div>
                <div class="content">
@@ -311,7 +314,7 @@
             <div class="swiper-slide slide">
                <div class="image">
                   <span class="price">99.99 лв/нощ</span>
-                  <img src="images/roomm-3.jpg" alt="">
+                  <img src="images/hotel-ognqnovo-double-room.jpg" alt="Двойна стая в хотел в Огняново">
                  <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
                </div>
                <div class="content">
@@ -346,39 +349,33 @@
       <div class="box-container">
 
          <div class="box">
-            <img src="images/bed.png" alt="">
+            <img src="images/bed.png" alt="Леглова база на хотел в село Огняново">
            
          </div>
 
          <div class="box">
-            <img src="images/bath.png" alt="">
+            <img src="images/bath.png" alt="Минерална баня на хотел в село Огняново">
             
          </div>
 
          <div class="box">
-            <img src="images/tv.png" alt="">
+            <img src="images/tv.png" alt="Оборудване на стаите в хотел в село Огняново">
             
          </div>
 
          <div class="box">
-            <img src="images/forest.png" alt="">
+            <img src="images/forest.png" alt="Дейности в село Огняново">
            
          </div>
          
          <div class="box">
-            <img src="images/wifi.png" alt="">
+            <img src="images/wifi.png" alt="Интернет в статите на хотел в село Огняново">
            
          </div>
          <div class="box">
-            <img src="images/parking.png" alt="">
-           
+            <img src="images/parking.png" alt="Безплатен паркинг пред хотелът в Огняново">
          </div>
-
-
-      
-
       </div>
-
    </section>
 
    <!-- end -->
@@ -394,35 +391,35 @@
          <div class="swiper-wrapper">
 
             <div class="swiper-slide slide">
-               <img src="images/galleryy1.jpg" alt="">
+               <img src="images/rest-in-ognqnovo.jpg" alt="Почивка в село Огняново">
                <div class="icon">
                   <i class="fas fa-magnifying-glass-plus"></i>
                </div>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/galleryy2.jpg" alt="">
+               <img src="images/rooms-in-ognqnovo.jpg" alt="Нощувка в село Огняново">
                <div class="icon">
                   <i class="fas fa-magnifying-glass-plus"></i>
                </div>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/galleryy3.jpg" alt="">
+               <img src="images/reception-hotel-ognqnovo.jpg" alt="Рецпция за записване на нощувка в село Огняново">
                <div class="icon">
                   <i class="fas fa-magnifying-glass-plus"></i>
                </div>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/galleryy4.jpg" alt="">
+               <img src="images/bathroom-hotel-ognqnovo.jpg" alt="Баня в стаите на хотел в Огняново">
                <div class="icon">
                   <i class="fas fa-magnifying-glass-plus"></i>
                </div>
             </div>
 
             <div class="swiper-slide slide">
-               <img src="images/galleryy5.jpg" alt="">
+               <img src="images/rest-room-ognqnovo.jpg" alt="Хотел Минерални бани в село Огняново">
                <div class="icon">
                   <i class="fas fa-magnifying-glass-plus"></i>
                </div>
@@ -456,7 +453,7 @@
                <i class="fas fa-quote-right"></i>
                <p>Непретенциозно, тихо и спокойно място с приятна гледка. Просторна стая с всичко необходимо. Към наблизо има и две механи, в които храната е много свежа и вкусна. Изключително подходящо, ако желаете да избягате от ежедневието и шума на големия град!</p>
                <div class="user">
-                  <img src="images/pic-1.png" alt="">
+                  <img src="images/gost-hotel-ognqnovo.png" alt="Отзиви за хотел Минерални бани в село Огняново">
                   <div class="user-info">
                      <h3>Николай Вълков</h3>
                      <div class="stars">
@@ -475,7 +472,7 @@
                <i class="fas fa-quote-right"></i>
                <p>Приветлев персонал, отлично съотношение цена качество, много доволни останахме всичките, водата беше страхотна!</p>
                <div class="user">
-                  <img src="images/pic-2.png" alt="">
+                  <img src="images/gosti.png" alt="Отзиви от почивка в село Огняново">
                   <div class="user-info">
                      <h3>Ренета Кирева</h3>
                      <div class="stars">
@@ -494,7 +491,7 @@
                <i class="fas fa-quote-right"></i>
                <p>В началото се зачудих какво ще е да отида на минерална баня както траките и римляните обичат, но останах с много приятно изживяване, препоръчвам с две ръце!</p>
                <div class="user">
-                  <img src="images/pic-3.png" alt="">
+                  <img src="images/pic-3.png" alt="Доволни гости на хотел Минерални бани в село Огняново">
                   <div class="user-info">
                      <h3>Васил Узунов</h3>
                      <div class="stars">
@@ -513,7 +510,7 @@
                <i class="fas fa-quote-right"></i>
                <p>Стаите за нощувки се намират на прекрасно място над селото . Те са уютнии и много тихи, в съседство ,като в комплекс с два други хотела,които се взаимодопълват. Атмосферата е уникална, можете да се отпуснете напълно и да се потопите в атмосферата на тракийските бани.</p>
                <div class="user">
-                  <img src="images/pic-4.png" alt="">
+                  <img src="images/pic-4.png" alt="Дейности на гости в хотел Минерални бани в село Огняново">
                   <div class="user-info">
                      <h3>Атанаска Милчева</h3>
                      <div class="stars">
@@ -535,7 +532,7 @@
                   Разхождах се много в гората.
                   Бих го препоръчал.</p>
                <div class="user">
-                  <img src="images/pic-5.png" alt="">
+                  <img src="images/pic-5.png" alt="Отзиви на нашите гости в село Огняново, хотел Минерални бани">
                   <div class="user-info">
                      <h3>Николай Станев</h3>
                      <div class="stars">
@@ -555,7 +552,7 @@
                <p>Clean, cozy place.
                   The price/quality ratio is great.</p>
                <div class="user">
-                  <img src="images/pic-6.png" alt="">
+                  <img src="images/pic-6.png" alt="Чужденци посещаващи хотел Минерални бани в село Огняново">
                   <div class="user-info">
                      <h3>Vanessa Milouccus</h3>
                      <div class="stars">
@@ -582,7 +579,7 @@
       <div class="row">
 
          <div class="image">
-            <img src="images/FAQs.gif" alt="">
+            <img src="images/FAQs.gif" alt="Въпроси относно почивка в село Огняново">
          </div>
 
          <div class="content">
@@ -650,13 +647,13 @@
       
          <div class="row">
             <div class="col-12 col-md-6 col-lg-4 pb-5">
-               <img src="images/bath11.jpg" class="img-fluid">
+               <img src="images/mineralna-banq.jpg" class="img-fluid" alt="Полезна за здравето минерална вода на Огняново">
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-5">
-               <img src="images/bath22.jpg" class="img-fluid">
+               <img src="images/mineralna-voda-ognqnovo.jpg" class="img-fluid" alt="Ползи от минералната баня в село Огняново">
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-5">
-               <img src="images/bath33.jpg" class="img-fluid">
+               <img src="images/mineralni-bani-hotel.jpg" class="img-fluid" alt="Лекувита минерална вода в село Огняново">
             </div>
            
 
@@ -764,48 +761,57 @@
    <!-- footer -->
 
    <section class="footer">
-
       <div class="box-container">
-
          <div class="box">
             <h3>Информация за контакт</h3>
-            <a href="tel:0876110613"> <i class="fas fa-phone"></i> 087 611 0613 </a>
-            <a href="mailto:antonalmishev@abv.bg"> <i class="fas fa-envelope"></i> mineralhotelinfo@gmail.com</a>
-            <a href="https://www.garmen.bg/index.php?pg=4&siteDiv=1&wide=1"> <i class="fas fa-map"></i> с. Огняново, община Гърмен, ул. Горни Бани 27</a>
+            <a href="tel:0876110613" title="Позвънете на нас за резервация"> 
+               <i class="fas fa-phone"></i> 087 611 0613 
+            </a>
+            <a href="mailto:mineralhotelinfo@gmail.com" title="Изпратете имейл за запитване"> 
+               <i class="fas fa-envelope"></i> mineralhotelinfo@gmail.com
+            </a>
+            <a href="https://www.garmen.bg/index.php?pg=4&siteDiv=1&wide=1" title="Намерете ни на картата" rel="nofollow"> 
+               <i class="fas fa-map"></i> с. Огняново, община Гърмен, ул. Горни Бани 27
+            </a>
          </div>
-
+   
          <div class="box">
             <h3>Бързи връзки</h3>
-            <a href="#home"> <i class="fas fa-arrow-right"></i>начало</a>
-            <a href="#about"> <i class="fas fa-arrow-right"></i> за нас</a>
-            <a href="#room"> <i class="fas fa-arrow-right"></i> стаи</a>
-            <a href="#gallery"> <i class="fas fa-arrow-right"></i> галерия</a>
-            <a href="#reservation"> <i class="fas fa-arrow-right"></i> минерална баня</a>
+            <a href="#home" title="Върнете се към началната страница"> <i class="fas fa-arrow-right"></i> Начало</a>
+            <a href="#about" title="Научете повече за нас"> <i class="fas fa-arrow-right"></i> За нас</a>
+            <a href="#room" title="Разгледайте стаите ни"> <i class="fas fa-arrow-right"></i> Стаи</a>
+            <a href="#gallery" title="Вижте снимки от хотела"> <i class="fas fa-arrow-right"></i> Галерия</a>
+            <a href="#reservation" title="Информация за минералната баня"> <i class="fas fa-arrow-right"></i> Минерална баня</a>
          </div>
-
+   
          <div class="box">
             <h3>Забележителности</h3>
-            <a href="https://www.nikopolisadnestum.bgsait.com/"> <i class="fas fa-arrow-right"></i> Исторически град</a>
-            <a href="https://www.gotsedelchevmuseum.bg/"> <i class="fas fa-arrow-right"></i> Музей Гоце Делчев</a>
-            <a href="https://nevrokop-eparhia.bg/%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%8F/"> <i class="fas fa-arrow-right"></i> Неврокопската митроплия</a>
-            <a href="https://www.planinite.info/V_pomosht_na_turista/Tur_info_centrove/Tur_info_centrove.htm"> <i class="fas fa-arrow-right"></i> Туристически информационен център</a>
-            <a href="https://sxrisimov.com/bg/nachalo.html"> <i class="fas fa-arrow-right"></i>Специалист масажист-терапевт</a>
-            
+            <a href="https://www.nikopolisadnestum.bgsait.com/" title="Посетете историческия град" rel="nofollow"> 
+               <i class="fas fa-arrow-right"></i> Исторически град
+            </a>
+            <a href="https://www.gotsedelchevmuseum.bg/" title="Научете за Музей Гоце Делчев" rel="nofollow"> 
+               <i class="fas fa-arrow-right"></i> Музей Гоце Делчев
+            </a>
+            <a href="https://nevrokop-eparhia.bg/%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%8F/" title="Информация за Неврокопската митроплия" rel="nofollow"> 
+               <i class="fas fa-arrow-right"></i> Неврокопската митроплия
+            </a>
+            <a href="https://www.planinite.info/V_pomosht_na_turista/Tur_info_centrove/Tur_info_centrove.htm" title="Туристически информационен център" rel="nofollow"> 
+               <i class="fas fa-arrow-right"></i> Туристически информационен център
+            </a>
+            <a href="https://sxrisimov.com/bg/nachalo.html" title="Професионален масажист-терапевт" rel="nofollow"> 
+               <i class="fas fa-arrow-right"></i> Специалист масажист-терапевт
+            </a>
          </div>
-
       </div>
-
+   
       <div class="share">
-         <a href="https://www.facebook.com/profile.php?id=100067225864865" class="fab fa-facebook-f"></a>
-         <a href="https://www.facebook.com/profile.php?id=100067225864865" class="fab fa-instagram"></a>
-        <!--<a href="#" class="fab fa-twitter"></a>
-         <a href="#" class="fab fa-pinterest"></a> -->
+         <a href="https://www.facebook.com/profile.php?id=100067225864865" class="fab fa-facebook-f" title="Следвайте ни във Facebook" rel="nofollow"></a>
+         <a href="https://www.facebook.com/profile.php?id=100067225864865" class="fab fa-instagram" title="Следвайте ни в Instagram" rel="nofollow"></a>
       </div>
-
+   
       <div class="credit">&copy; Минерални бани и стаи за нощувки с. Огняново<span>, собственост на община Гърмен</span></div>
-
    </section>
-
+   
    <!-- end -->
 
 
