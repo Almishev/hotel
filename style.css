@@ -554,7 +554,7 @@ section{
 }
 
 .image-section{
-    background: url("images/background.png");
+    background: url("images/background.webp");
     height: 78rem;
     background-position: center center;
     background-attachment: fixed;
