@@ -3,16 +3,16 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <!-- Created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-    <!-- all images are in webp -->
-    
+    <!-- All images are in webp -->
+
     <url>
         <loc>https://hotel-ognqnovo.pro/</loc>
         <lastmod>2024-10-28T16:49:58+00:00</lastmod>
+        <priority>1.00</priority>
         <image:image>
             <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-home.webp</image:loc>
             <image:caption>Това е хотел в Огняново, начало</image:caption>
         </image:image>
-
         <image:image>
             <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-about.webp</image:loc>
             <image:caption>Хотел в село Огняново, за нас</image:caption>
@@ -25,8 +25,6 @@
             <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-address.webp</image:loc>
             <image:caption>Снимка на хотел в Огняново, заповядайте</image:caption>
         </image:image>
-
-    
         <image:image>
             <image:loc>https://hotel-ognqnovo.pro/images/ognqnovo-hotel.webp</image:loc>
             <image:caption>Хотел село Огняново</image:caption>
@@ -43,7 +41,6 @@
             <image:loc>https://hotel-ognqnovo.pro/images/hotel-ognqnovo-double-room.webp</image:loc>
             <image:caption>Двойна стая в хотел в Огняново</image:caption>
         </image:image>
-
         <image:image>
             <image:loc>https://hotel-ognqnovo.pro/images/bed.webp</image:loc>
             <image:caption>Леглова база на хотел в село Огняново</image:caption>
@@ -66,4 +63,11 @@
         </image:image>
     </url>
 
+    <url>
+        <loc>https://hotel-ognqnovo.pro/blog.html</loc>
+        <lastmod>2024-11-11T18:45:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
 </urlset>
+
